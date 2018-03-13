@@ -15,7 +15,7 @@ The Karaf console will output the following:
     Violation: status must be greater than or equal to 1
 
 
-###bean-validation-osgi License
+### License
 
 Copyright (C) 2018 Maurice Betzel
  
@@ -37,6 +37,6 @@ Copyright (C) 2018 Maurice Betzel
  See the License for the specific language governing permissions and
  limitations under the License.
 
-###hibernate validator:
+### hibernate validator:
 
 http://docs.jboss.org/hibernate/validator/5.4/reference/en-US/html_single/
