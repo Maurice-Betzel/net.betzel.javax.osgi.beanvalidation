@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features name="osgi-bean-validation-features-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.4.0">
+
+    <feature name="osgi-bean-validation" version="${project.version}">
+        <bundle start-level="30">mvn:javax.money/money-api/1.0.1</bundle>
+        <bundle start-level="30">mvn:javax.el/javax.el-api/3.0.0</bundle>
+        <bundle start-level="30">mvn:javax.validation/validation-api/1.1.0.Final</bundle>
+        <bundle start-level="30">mvn:javax.persistence/javax.persistence-api/2.2</bundle>
+        <bundle start-level="30">mvn:org.jsoup/jsoup/1.11.2</bundle>
+        <bundle start-level="30">mvn:joda-time/joda-time/2.9.5</bundle>
+        <bundle start-level="30">mvn:org.glassfish/javax.el/3.0.0</bundle>
+        <bundle start-level="30">mvn:com.fasterxml/classmate/1.3.1</bundle>
+        <bundle start-level="30">mvn:com.thoughtworks.paranamer/paranamer/2.8</bundle>
+        <bundle start-level="30">mvn:org.hibernate/hibernate-validator/5.4.2.Final</bundle>
+        <bundle start-level="30">mvn:net.betzel.javax.osgi.beanvalidation/api/${project.version}</bundle>
+        <bundle start-level="40">mvn:net.betzel.javax.osgi.beanvalidation/provider/${project.version}</bundle>
+        <bundle start-level="80">mvn:net.betzel.javax.osgi.beanvalidation/consumer/${project.version}</bundle>
+    </feature>
+
+</features>
